@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500&display=swap');
+@import url('https://webfontworld.github.io/gmarket/GmarketSans.css');
+* {
+    font-family: 'GmarketSans';
+    font-weight: 300;
+}
+body, h1, h2 {
+    margin: 8px;
+    padding: 0px;
+}
+
+body {
+    min-width: fit-content;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'GmarketSans';
+}
+
+h2 {
+    font-size: 20px;
+    font-family: 'GmarketSans';
+    background-color: rgb(206, 229, 239);
+    font-weight: 600;
+    color: #282828;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ebebeb;
+    padding: 5px;
+}
+
+.mainbox {
+    width: 610px;
+    padding: 30px;
+    margin: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #ebebeb;
+    box-shadow: 0 1px 20px 0 rgba(0,0,0,0.1)
+}
+
+.title-box {
+    text-align: right;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.detail {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.me {
+    width: 100px;
+    padding-bottom: 50px;
+}
+
+.playlist {
+    border: 1px solid #ebebeb;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.accordion-button {
+    font-weight: 400;
+}
