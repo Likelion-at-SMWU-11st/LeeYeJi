@@ -3,5 +3,26 @@
 }
 
 body{
-    background-color: beige;
+    background-color: rgb(246, 149, 45);
+    text-align: center;
+}
+
+input{
+    margin-top: 20%;
+    margin-bottom: 10px;
+    width: 30%;
+    height: 50px;
+    border-radius: 20px;
+    border-color: rgb(100, 51, 18);
+    text-align: center;
+}
+
+button{
+    width: 10%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#greeting{
+    margin-top: 20%;
 }
