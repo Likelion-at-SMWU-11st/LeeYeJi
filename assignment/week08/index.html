@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>예지과제🦁</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <h2 id="clock">00:00:00</h2>
+    <div class="box">
+        <div class="todo">
+            <h3>투두리스트 추가하기</h3><hr>
+            <form id="todo-form">
+                <input type="text" placeholder="오늘 해야 할 일" required/>
+                <button class="add">add</button>
+            </form>
+        </div>
+        <div class="my">
+            <h3>나의 투두리스트</h3><hr>
+            <ul id="todo-list"></ul>
+        </div>
+        <script src="js/clock.js"></script>
+        <script src="js/todo.js"></script>
+    </div>
+</body>
+</html>
