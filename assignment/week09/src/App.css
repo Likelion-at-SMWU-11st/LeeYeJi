@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  margin-top: 10%;
+}
+.page {
+  border-radius: 50px;
+  width: 50%;
+  text-align: center;
+  height: 100px;
+  background-color: antiquewhite;
+  margin: auto;
+  padding-top: 45px;
+}
