@@ -1,0 +1,25 @@
+{
+    "music": [
+        {
+            "id": 1,
+            "title": "Wrapped Around Your Finger",
+            "singer": "Post Malone",
+            "genre": "Hip-Hop/Rap",
+            "url": "https://youtu.be/JXxAnZaZrG0"
+        },
+        {
+            "id": 2,
+            "title": "Medicine",
+            "singer": "The Volunteers",
+            "genre": "Rock",
+            "url": "https://youtu.be/HUku0gs0axI"
+        },
+        {
+            "id": 3,
+            "title": "1974 Live",
+            "singer": "DeVita",
+            "genre": "R&B/Soul",
+            "url": "https://youtu.be/i6gkxrpCswA"
+        }
+    ]
+}
