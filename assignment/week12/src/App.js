@@ -1,10 +1,14 @@
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
+import Menubar from './pages/Menubar';
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <Routes>
+      <Route path="/" element={<Menubar/>}>
+
+      </Route>
+    </Routes>
   );
 }
 
