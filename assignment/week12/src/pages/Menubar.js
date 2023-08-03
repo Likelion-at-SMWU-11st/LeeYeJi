@@ -12,6 +12,9 @@ const Menubar = () => {
                 <li>
                     <Link to="/surf">SurfPage</Link>
                 </li>
+                <li>
+                    <Link to="/music">MusicPage</Link>
+                </li>
             </ul>
             <Outlet />
         </Bar>
