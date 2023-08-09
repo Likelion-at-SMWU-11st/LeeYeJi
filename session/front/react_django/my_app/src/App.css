@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.Board-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.Board-card {
+  background-color: #fffaf0;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px;
+  width: 300px;
+  margin: auto;
+}
+
+.Board-card h2 {
+  margin-top: 0;
+}
+
+input {
+  font-size: 16px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 2px;
+  border-style: none;
+  width: 200px;
+  height: 30px;
+}
+
+@media (max-width: 768px) {
+  .Board-list {
+    padding: 10px;
+  }
+
+  .Board-card {
+    width: 100%;
+  }
+}
