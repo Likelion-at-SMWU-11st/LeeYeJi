@@ -37,6 +37,9 @@ const NewsList = ({category}) => {
                 case 'apple':
                     query = 'everything?q=apple&from=2023-09-13&to=2023-09-13&sortBy=popularity';
                     break;
+                case 'tesla':
+                    query = 'everything?q=tesla&from=2023-08-14&sortBy=publishedAt';
+                    break;
                 default:
                     query = `top-headlines?country=kr&category=${category}`;
             }
