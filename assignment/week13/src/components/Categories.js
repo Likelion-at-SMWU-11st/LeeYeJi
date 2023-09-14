@@ -31,6 +31,10 @@ const categories = [
     name: 'technology',
     text: '기술',
   },
+  {
+    name: 'apple',
+    text: '애플',
+  },
 ];
 
 const CategoriesBlock = styled.div`
