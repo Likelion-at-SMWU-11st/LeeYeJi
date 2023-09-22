@@ -4,6 +4,7 @@ import Button from '../components/common/Button';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import palette from '../lib/styles/palette';
+import GoogleLogin from '../components/auth/GoogleLogin';
 import {
     firebaseAuth,
     signInWithEmailAndPassword,
@@ -59,6 +60,7 @@ const LoginPage = () => {
                 <Footer>
                     <Link to="/register">회원가입</Link>
                 </Footer>
+                <GoogleLogin/>
             </AuthFormBlock>
         </AuthTemplate>
     );

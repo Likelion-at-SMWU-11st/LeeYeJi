@@ -31,4 +31,14 @@ export default GoogleLogin;
 const Container = styled.div`
     text-align: center;
 `;
-const GoogleBtn = styled.div``;
+const GoogleBtn = styled.div`
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+    padding: 0.7rem;
+    width: fit-content;
+    margin: auto;
+    &:hover {
+        background: #f2f2f2;
+        cursor: pointer;
+    };
+`;
